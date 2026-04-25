@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
 // ADD THIS LINE HERE:
-axios.defaults.baseURL = 'https://brahmastra-djng.onrender.com';
+axios.defaults.baseURL = 'https://brahmastra-djng.onrender.com/';
 const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
