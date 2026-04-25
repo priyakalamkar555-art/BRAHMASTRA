@@ -13,7 +13,7 @@ export const SocketProvider = ({ children }) => {
   useEffect(() => {
     if (!user) return;
 
-    socketRef.current = io(process.env.REACT_APP_API_URL || 'http://localhost:5000');
+    socketRef.current = io(process.env.REACT_APP_API_URL || 'https://brahmastra-djng.onrender.com');
     socketRef.current.emit('join', user._id);
 
     // Incoming SOS from a contact
