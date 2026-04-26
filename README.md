@@ -110,7 +110,8 @@ npm start
 
 ## 🌐 Live Demo
 
-🔗 Coming Soon 
+🔗https://brahmastra-frontend.onrender.com/
+
 
 ---
 
