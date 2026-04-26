@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 // All paths are relative – CRA proxy forwards them to http://localhost:5000
+axios.defaults.baseURL = 'https://brahmastra-backend-kzmy.onrender.com/';
 export const api = {
   // Auth
   login:       (email, password)        => axios.post('/api/auth/login',    { email, password }),
