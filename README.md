@@ -68,6 +68,11 @@ Built during a hackathon, this project focuses on *speed, simplicity, and life-s
 
 ---
 
+## 🌐 Live Demo
+
+🔗https://brahmastra-frontend.onrender.com/
+
+---
 ## 🔐 Environment Variables
 
 Create a .env file in backend:
@@ -106,12 +111,6 @@ npm start
 ```
 npm start
 ```
----
-
-## 🌐 Live Demo
-
-🔗https://brahmastra-frontend.onrender.com/
-
 
 ---
 
